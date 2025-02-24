@@ -18,6 +18,8 @@ public class pom {
 			
 			driver.get("https://demowebshop.tricentis.com/");
 			driver.findElement(By.className("search-box-text")).sendKeys("Books");// cannot add full name value as it contains space and it will not work, only words seperated with - works
+			driver.get("https://demowebshop.tricentis.com/");
+			driver.findElement(By.className("search-box-text")).sendKeys("Books");// cannot add full name value as it contains space and it will not work, only words seperated with - works
 		
 			
 			
